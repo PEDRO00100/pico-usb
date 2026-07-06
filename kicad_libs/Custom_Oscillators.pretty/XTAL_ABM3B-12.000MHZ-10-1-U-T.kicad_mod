@@ -1,0 +1,234 @@
+(footprint "XTAL_ABM3B-12.000MHZ-10-1-U-T"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "ABM3B-12.000MHZ-10-1-U-T"
+		(at 1.125 -3.985 0)
+		(layer "F.SilkS")
+		(uuid "d9834237-2c46-4e62-81f1-7db29d7ff383")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTAL_ABM3B-12.000MHZ-10-1-U-T"
+		(at 16.365 3.985 0)
+		(layer "F.Fab")
+		(uuid "6d9e4514-4139-420a-a6f5-9eef2620ad49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.snapeda.com/parts/ABM3B-12.000MHZ-10-1-U-T/Abracon/datasheet/"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b3b6b5e-7374-45d3-9ae0-b94d02276b21")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "12 MHz ±10ppm Crystal 10pF 70 Ohms 4-SMD, No Lead"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2106f651-b5b0-47d7-92bd-6527a7da08b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.6 -0.78)
+		(end -1.6 0.78)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edf017fe-0a2b-43f3-b5c7-aa0104666642")
+	)
+	(fp_line
+		(start -0.28 -2.5)
+		(end 0.28 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90ad2ccc-063c-4836-9030-37f51d6f2c21")
+	)
+	(fp_line
+		(start -0.28 2.5)
+		(end 0.28 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64375af0-bb98-4304-a7c7-7c9b14b09797")
+	)
+	(fp_line
+		(start 1.6 -0.78)
+		(end 1.6 0.78)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eae1f297-0175-4281-9414-349f9dec3699")
+	)
+	(fp_circle
+		(center -2.55 -2)
+		(end -2.45 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c87e9705-e93c-4eb5-b6e7-4a158ddee003")
+	)
+	(fp_line
+		(start -2.05 -3.15)
+		(end -2.05 3.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ecdd5dc4-c61d-4e07-a6b4-ecd2734e72fc")
+	)
+	(fp_line
+		(start -2.05 -3.15)
+		(end 2.05 -3.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91922e66-7ccc-4c45-995b-e0adb7321fe7")
+	)
+	(fp_line
+		(start 2.05 -3.15)
+		(end 2.05 3.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a35a4616-c40c-45f0-8438-dee6d1f477b3")
+	)
+	(fp_line
+		(start 2.05 3.15)
+		(end -2.05 3.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df88563a-510b-4065-9ae3-d8aa19a455e4")
+	)
+	(fp_line
+		(start -1.6 -2.5)
+		(end -1.6 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ee44ef4-0772-4f2d-ac7d-4f919894ffe0")
+	)
+	(fp_line
+		(start -1.6 -2.5)
+		(end 1.6 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19de1a8d-b4f2-4c19-bc4f-fc265782c316")
+	)
+	(fp_line
+		(start 1.6 -2.5)
+		(end 1.6 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8180a54c-d335-4406-9825-20d6806a813a")
+	)
+	(fp_line
+		(start 1.6 2.5)
+		(end -1.6 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2169e73-52f8-4f6e-887d-7513f9c32169")
+	)
+	(fp_circle
+		(center -2.55 -2)
+		(end -2.45 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "018f5b20-2dca-498f-814c-3b9f6d7a73a5")
+	)
+	(pad "1" smd rect
+		(at -1.2 -2)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "41561930-a286-4ef3-a332-e928bca90bd4")
+	)
+	(pad "2" smd rect
+		(at -1.2 2)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "31cd3ab5-259f-4bae-b666-755601bfdaec")
+	)
+	(pad "3" smd rect
+		(at 1.2 2)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ee208d27-dd42-430b-8c1c-62a0f44690e6")
+	)
+	(pad "4" smd rect
+		(at 1.2 -2)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8b135de9-de02-48b8-9ea7-7519669281a1")
+	)
+	(embedded_fonts no)
+	(model "/home/gefex/kicad_libs/Custom_Oscillators.pretty/ABM3B-12.000MHZ-10-1-U-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
