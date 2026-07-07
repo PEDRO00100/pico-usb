@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "A6H-4101") (type "KiCad") (uri "${KIPRJMOD}/kicad_libs/A6H-4101.kicad_sym") (options "") (descr ""))
+	(lib (name "ABM3B-12.000MHZ-10-1-U-T") (type "KiCad") (uri "${KIPRJMOD}/kicad_libs/ABM3B-12.000MHZ-10-1-U-T.kicad_sym") (options "") (descr ""))
+	(lib (name "Amphenol_USBC_Plug") (type "KiCad") (uri "${KIPRJMOD}/kicad_libs/Amphenol_USBC_Plug.kicad_sym") (options "") (descr ""))
+	(lib (name "CX60-24S-UNIT") (type "KiCad") (uri "${KIPRJMOD}/kicad_libs/CX60-24S-UNIT.kicad_sym") (options "") (descr ""))
+	(lib (name "MEM2067-02-180-00-A_REVB") (type "KiCad") (uri "${KIPRJMOD}/kicad_libs/MEM2067-02-180-00-A_REVB.kicad_sym") (options "") (descr ""))
+	(lib (name "USB4155-03-C_REVA") (type "KiCad") (uri "${KIPRJMOD}/kicad_libs/USB4155-03-C_REVA.kicad_sym") (options "") (descr ""))
+	(lib (name "Wurth_USBC_Plug_16P") (type "KiCad") (uri "${KIPRJMOD}/kicad_libs/Wurth_USBC_Plug_16P.kicad_sym") (options "") (descr ""))
+)
