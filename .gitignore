@@ -1,0 +1,51 @@
+# -----------------------------------
+# Configuración local de KiCad
+# -----------------------------------
+*.kicad_prl
+fp-info-cache
+
+# -----------------------------------
+# Archivos de autoguardado y backups
+# -----------------------------------
+*-bak
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+
+# -----------------------------------
+# Archivos de bloqueo de sesión
+# -----------------------------------
+*.lck
+*.env
+
+# -----------------------------------
+# Netlists y archivos de enrutador externo
+# -----------------------------------
+*.net
+*.dsn
+*.ses
+
+# -----------------------------------
+# Archivos de fabricación y exportaciones
+# (Opcional, si prefieres no subir Gerbers)
+# -----------------------------------
+/gerber/
+/gerbers/
+/fabrication/
+/plots/
+*.gbr
+*.drl
+*.pos
+*.rpt
+*-job.gbrjob
+*-drl.rpt
+
+# -----------------------------------
+# Archivos de sistema y editores
+# -----------------------------------
+.history/
+.vscode/
+.DS_Store
+Thumbs.db
