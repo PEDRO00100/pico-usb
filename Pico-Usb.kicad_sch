@@ -9890,7 +9890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56008c5b-270f-4653-9320-5ec8935b7420")
-		(property "Reference" "SW4"
+		(property "Reference" "CFG"
 			(at 205.7304 229.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10056,7 +10056,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "SW4")
+					(reference "CFG")
 					(unit 1)
 				)
 			)
