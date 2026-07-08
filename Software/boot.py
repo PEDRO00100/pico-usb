@@ -1,47 +1,51 @@
-# boot.py - Hardware USB Profile Manager
+# boot.py - Hardware USB Profile & Fingerprint Manager
 # Executes BEFORE USB enumeration to the host PC
 
 import board
 import digitalio
 import storage
+import supervisor
+import usb_cdc
+import usb_midi
+import usb_hid
 
-# --- CONFIGURATION ---
-# This MUST be the same pin used for 'progStatusPin' in duckyinpython.py
-# Standard is GP0. When connected to GND, it activates DEV MODE.
 SETUP_PIN = board.GP0
 
 def is_dev_mode_active() -> bool:
-    """
-    Checks the physical hardware jumper.
-    Returns True if the jumper is connected to GND (Dev Mode).
-    Returns False if the pin is floating (Attack Mode).
-    """
-    jumper = digitalio.DigitalInOut(SETUP_PIN)
-    jumper.switch_to_input(pull=digitalio.Pull.UP)
-    
-    # If connected to GND, value is False. We invert it for readability.
-    is_dev = not jumper.value 
-    
-    jumper.deinit() # Clean up hardware resource immediately
-    return is_dev
+    """Safely reads hardware jumper without locking GPIO resources."""
+    try:
+        with digitalio.DigitalInOut(SETUP_PIN) as jumper:
+            jumper.switch_to_input(pull=digitalio.Pull.UP)
+            return not jumper.value
+    except Exception:
+        return False
 
-def configure_stealth_profile():
-    print("[BOOT] Evaluating Hardware Security Profile...")
+def configure_usb_profile():
+    supervisor.set_usb_identification(
+        vid=0x1209,
+        pid=0x0001,
+        manufacturer="Generic",
+        product="USB Keyboard"
+    )
     
     if is_dev_mode_active():
-        # --- DEVELOPMENT MODE ---
-        # Jumper is present. We need to be able to edit files.
-        print("[BOOT] Dev Mode Active: USB Mass Storage ENABLED.")
-        # We do nothing here, USB is visible by default.
-    else:
-        # --- ATTACK MODE ---
-        # Jumper is removed. Hide tracks.
-        print("[BOOT] Attack Mode Active: USB Mass Storage DISABLED.")
-        storage.disable_usb_drive()
-        
-        # Optional: Disable Serial Console to be 100% invisible
-        import usb_cdc
-        usb_cdc.disable()
+        print("[BOOT] DEV MODE: Storage & Serial CDC enabled.")
+        return
 
-# Execute before host connection
-configure_stealth_profile()
+    # 2. Attack Mode: Minimize USB fingerprint to HID only
+    print("[BOOT] ATTACK MODE: Stealth generic HID profile active.")
+    storage.disable_usb_drive()
+    usb_cdc.disable()
+    usb_midi.disable()
+    
+    # 3. Configure HID interface
+    usb_hid.enable(
+        (usb_hid.Device.KEYBOARD, usb_hid.Device.CONSUMER_CONTROL),
+        boot_device=1
+    )
+    try:
+        usb_hid.set_interface_name("USB Keyboard")
+    except AttributeError:
+        pass
+
+configure_usb_profile()

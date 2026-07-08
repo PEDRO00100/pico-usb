@@ -10,6 +10,7 @@
 # TODO: ADD support for the following:
 # Add jitter
 # Add LED functionality
+import os
 import re
 import time
 import random
@@ -554,34 +555,58 @@ async def runScript(file_path):
         except OSError as e:
             print(f"[FATAL ERROR] Failed to execute {file_path} from SD Card. Details: {e}")
 
+def file_exists(path):
+    try:
+        os.stat(path)
+        return True
+    except OSError:
+        return False
+
 def selectPayload():
     """
-    Evaluates hardware switches to determine the target payload.
-    Strictly returns an absolute path rooted in /sd/
+    Decodes a 4-bit binary DIP switch to resolve the target SD payload path (0-15).
+    Implements a 3-tier filesystem fallback strategy to prevent runtime faults.
     """
     global payload1Pin, payload2Pin, payload3Pin, payload4Pin
     
-    # Map physical pins to filenames
-    payload_map = {
-        payload1Pin: "payload.dd",
-        payload2Pin: "payload2.dd",
-        payload3Pin: "payload3.dd",
-        payload4Pin: "payload4.dd"
-    }
-
-    target_filename = "payload.dd" # Default fallback
-
+    # LSB to MSB mapping (Bit 0 to Bit 3)
+    pins = [payload1Pin, payload2Pin, payload3Pin, payload4Pin]
+    payload_index = 0
+    
     try:
-        # First pin pulled low (False) wins
-        for pin, filename in payload_map.items():
+        for bit_position, pin in enumerate(pins):
             if not pin.value:
-                target_filename = filename
-                break
-    except Exception:
-        pass # Safeguard against floating pins
+                payload_index |= (1 << bit_position)
+    except Exception as e:
+        print(f"[WARN] GPIO read exception on DIP switch: {e}. Defaulting to index 0.")
+        payload_index = 0
 
-    # Enforce strict SD Card routing
-    return f"/sd/{target_filename}"
+    target_path = "/sd/payload.dd" if payload_index == 0 else f"/sd/payload{payload_index}.dd"
+
+    # Tier 1: Exact target payload verification
+    if file_exists(target_path):
+        return target_path
+    
+    print(f"[WARN] Target '{target_path}' not found. Attempting Tier 2 fallback.")
+    
+    # Tier 2: Standard default payload fallback
+    default_path = "/sd/payload.dd"
+    if target_path != default_path and file_exists(default_path):
+        return default_path
+        
+    # Tier 3: Emergency filesystem scan for any available .dd payload
+    print("[CRITICAL] Default 'payload.dd' missing. Initiating emergency SD scan.")
+    try:
+        for file in os.listdir("/sd"):
+            if file.endswith(".dd") and not file.startswith("._"):
+                emergency_path = f"/sd/{file}"
+                print(f"[WARN] Executing emergency fallback payload: {emergency_path}")
+                return emergency_path
+    except Exception as e:
+        print(f"[CRITICAL] SD card filesystem access failure: {e}")
+
+    print("[ERROR] No valid '.dd' payloads found on filesystem. Aborting execution.")
+    return None
 
 async def blink_led(led):
     if board.board_id in ('raspberry_pi_pico', 'raspberry_pi_pico2'):

@@ -1,29 +1,31 @@
+# pins.py - Hardware GPIO Configuration & Pin Mapping
+# Standardized for RP2040 CircuitPython execution
+
 import digitalio
 from digitalio import DigitalInOut, Pull
+import board
 from board import *
 from adafruit_debouncer import Debouncer
 
-#init button
-button1_pin = DigitalInOut(GP22) # defaults to input
-button1_pin.pull = Pull.UP      # turn on internal pull-up resistor
-button1 =  Debouncer(button1_pin)
+# Setup/Configuration Jumper (GP0: GND = Dev Mode, Floating = Attack Mode)
+progStatusPin = DigitalInOut(GP0)
+progStatusPin.switch_to_input(pull=Pull.UP)
 
+# Execution Button (GP22: Active-Low manual trigger)
+_button1_pin = DigitalInOut(GP22)
+_button1_pin.switch_to_input(pull=Pull.UP)
+button1 = Debouncer(_button1_pin)
 
-# payload1 = GPIO4 to GND
-# payload2 = GPIO5 to GND
-# payload3 = GPIO10 to GND
-# payload4 = GPIO11 to GND
+# Binary DIP Switch (CFG A6H-4101) - 4-bit decoding (0-15)
+# Active-Low: Switch ON = GND (Bit 1), Switch OFF = Floating (Bit 0)
+payload1Pin = DigitalInOut(GP4)
+payload1Pin.switch_to_input(pull=Pull.UP)  # LSB (Bit 0)
 
-#init payload selection switch
-payload1Pin = digitalio.DigitalInOut(GP4)
-payload1Pin.switch_to_input(pull=digitalio.Pull.UP)
-payload2Pin = digitalio.DigitalInOut(GP5)
-payload2Pin.switch_to_input(pull=digitalio.Pull.UP)
-payload3Pin = digitalio.DigitalInOut(GP10)
-payload3Pin.switch_to_input(pull=digitalio.Pull.UP)
-payload4Pin = digitalio.DigitalInOut(GP11)
-payload4Pin.switch_to_input(pull=digitalio.Pull.UP)
+payload2Pin = DigitalInOut(GP5)
+payload2Pin.switch_to_input(pull=Pull.UP)  # Bit 1
 
-# check GP0 for setup mode
-progStatusPin = digitalio.DigitalInOut(GP0)
-progStatusPin.switch_to_input(pull=digitalio.Pull.UP)
+payload3Pin = DigitalInOut(GP10)
+payload3Pin.switch_to_input(pull=Pull.UP)  # Bit 2
+
+payload4Pin = DigitalInOut(GP11)
+payload4Pin.switch_to_input(pull=Pull.UP)  # MSB (Bit 3)
