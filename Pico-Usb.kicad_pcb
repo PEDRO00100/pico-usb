@@ -1003,7 +1003,7 @@
 		(at 137.5 93)
 		(descr "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html")
 		(tags "SMD SMT button")
-		(property "Reference" "SW3"
+		(property "Reference" "MODE"
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "c43b41b4-f8b9-4d1c-9934-f716645edbbe")
@@ -2268,7 +2268,7 @@
 		(at 144.25 100 -90)
 		(descr "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html")
 		(tags "SMD SMT button")
-		(property "Reference" "SW1"
+		(property "Reference" "RST"
 			(at 0 -2.5 90)
 			(layer "F.SilkS")
 			(uuid "a18fe93f-0e2d-4416-86f8-b290632adced")
@@ -2528,7 +2528,7 @@
 		(at 130.75 100 90)
 		(descr "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html")
 		(tags "SMD SMT button")
-		(property "Reference" "SW2"
+		(property "Reference" "BOOTSEL"
 			(at 0 -2.5 90)
 			(layer "F.SilkS")
 			(uuid "b20e7c06-bc25-4f78-b2a7-93dd784b1677")

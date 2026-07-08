@@ -9259,7 +9259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f37e457-f226-490a-ba44-f9e2254fe6ed")
-		(property "Reference" "SW2"
+		(property "Reference" "BOOTSEL"
 			(at 182.88 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9321,7 +9321,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "SW2")
+					(reference "BOOTSEL")
 					(unit 1)
 				)
 			)
@@ -12843,7 +12843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc9cb2f5-36f9-4cf6-a963-c16c2c8bc45a")
-		(property "Reference" "SW1"
+		(property "Reference" "RST"
 			(at 39.37 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12905,7 +12905,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "SW1")
+					(reference "RST")
 					(unit 1)
 				)
 			)
@@ -13490,26 +13490,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1f41758-bc4f-4392-adb4-e939ef4e855d")
-		(property "Reference" "SW3"
-			(at 113.0299 123.19 90)
+		(property "Reference" "MODE"
+			(at 114.3 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 115.5699 123.19 90)
+			(at 114.3 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
@@ -13554,7 +13552,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "SW3")
+					(reference "MODE")
 					(unit 1)
 				)
 			)
