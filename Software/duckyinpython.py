@@ -1,8 +1,13 @@
-# License : GPLv2.0
-# copyright (c) 2026  Dave Bailey
+# License: GPLv2.0
+# Copyright (c) 2026  Dave Bailey
 # Author: Dave Bailey (dbisu, @daveisu)
 #
-#  TODO: ADD support for the following:
+# Modified and adapted by:
+# Copyright (c) 2026  Pedro Pacheco
+# Copyright (c) 2026  Nahum Silvestre Martinez
+# - RP2040 hardware adaptation and system modifications.
+#
+# TODO: ADD support for the following:
 # Add jitter
 # Add LED functionality
 import re
