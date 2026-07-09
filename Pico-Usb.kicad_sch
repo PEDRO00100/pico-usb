@@ -8387,7 +8387,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0453fb48-2735-48c1-b738-4cc759713fb1")
-		(property "Reference" "R2"
+		(property "Reference" "R7"
 			(at 51.054 152.908 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8449,7 +8449,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8467,7 +8467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "049191ed-0d97-4cc9-b18c-6d6de4f8a940")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR07"
 			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8528,7 +8528,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR012")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8545,7 +8545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05b5fb33-7a2c-47b3-b000-8a6763c15dd3")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 50.8 143.764 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8607,7 +8607,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8624,7 +8624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a8c7aa0-beef-4069-89ec-7205c4ffb289")
-		(property "Reference" "R1"
+		(property "Reference" "R11"
 			(at 49.53 190.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8686,7 +8686,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R1")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8783,7 +8783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d7d424-f1f4-4a38-8639-b3d3e30ad0f6")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR06"
 			(at 78.74 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8844,7 +8844,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR011")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8862,7 +8862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22f20973-d6f8-44b2-9033-8fad1cf84064")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR03"
 			(at 105.41 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8923,7 +8923,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR015")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8941,7 +8941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "239d4166-e498-4620-82f0-77aaa24bbe3b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 367.03 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9001,7 +9001,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9019,7 +9019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23df8f0b-f12c-4b72-9338-ef9ca47c467f")
-		(property "Reference" "C9"
+		(property "Reference" "C2"
 			(at 254 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9083,7 +9083,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "C9")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9100,7 +9100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "262a3150-42e9-42f3-97c7-f2ee7a8ee4a3")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 326.136 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9162,7 +9162,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9179,7 +9179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c3dcd56-09b2-4ccc-93f8-6810e6092642")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 51.054 133.858 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9241,7 +9241,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9259,7 +9259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f37e457-f226-490a-ba44-f9e2254fe6ed")
-		(property "Reference" "BOOTSEL"
+		(property "Reference" "BOOTSEL1"
 			(at 182.88 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9321,7 +9321,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "BOOTSEL")
+					(reference "BOOTSEL1")
 					(unit 1)
 				)
 			)
@@ -9338,7 +9338,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3017f2d2-3f66-492d-a317-83da3a92a4fd")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 97.282 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9400,7 +9400,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9418,7 +9418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37568d20-bf73-41b1-b868-dddf867229a1")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG01"
 			(at 364.49 22.225 0)
 			(hide yes)
 			(show_name no)
@@ -9478,7 +9478,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#FLG04")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -9496,7 +9496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37e2348c-a8de-462b-9a39-21648ff44ffd")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 250.19 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9556,7 +9556,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9574,7 +9574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f062860-63ce-4dd4-9aba-f0104775ee47")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR05"
 			(at 68.58 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9635,7 +9635,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR013")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9652,7 +9652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ff5131a-868f-41fb-b0de-b1b620340add")
-		(property "Reference" "C11"
+		(property "Reference" "C8"
 			(at 369.316 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9716,7 +9716,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "C11")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9734,7 +9734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5126b0d9-4848-4577-9b3c-a4045fcb119a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR014"
 			(at 344.17 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9794,7 +9794,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR02")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9812,7 +9812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54de68de-ad6f-47f1-8843-130a0c91f897")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 53.34 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9872,7 +9872,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9890,7 +9890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56008c5b-270f-4653-9320-5ec8935b7420")
-		(property "Reference" "CFG"
+		(property "Reference" "CFG1"
 			(at 205.7304 229.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10056,7 +10056,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "CFG")
+					(reference "CFG1")
 					(unit 1)
 				)
 			)
@@ -10074,7 +10074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5686c71d-9049-45e3-b0ee-6ebb0c1a44bd")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 382.27 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10145,7 +10145,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10163,7 +10163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58746a53-8ed6-480d-9c28-1c315f9b1597")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 194.31 254 0)
 			(hide yes)
 			(show_name no)
@@ -10223,7 +10223,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10240,7 +10240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "597209f1-7c8d-4531-a92e-34bb811e8628")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 196.596 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10302,7 +10302,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10320,7 +10320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61136d58-de2e-4b84-845a-4f7d290fbcb4")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 349.25 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10391,7 +10391,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10630,7 +10630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6332488b-2468-4f74-b9cf-b15e6c759735")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 188.976 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10694,7 +10694,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10712,7 +10712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b0b2ac7-24bd-49ec-b450-356eb5d1e46e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 377.19 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -10772,7 +10772,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10790,7 +10790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72d2a74a-7b88-453f-be51-795357e3fbc1")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 83.4233 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11041,7 +11041,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -11059,7 +11059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7419906d-b1bd-4189-9a3b-7b2dcb73c093")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR016"
 			(at 191.77 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11119,7 +11119,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR020")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11136,7 +11136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7431a817-1241-41c5-b408-c6eb652bfdc8")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR017"
 			(at 13.97 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -11196,7 +11196,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR08")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11213,7 +11213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "758ffdcb-7bea-44b3-a4ce-170894097304")
-		(property "Reference" "C2"
+		(property "Reference" "C10"
 			(at 16.256 167.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11277,7 +11277,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "C2")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11294,7 +11294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77d4d74c-70d2-4726-9f3f-509d542d302a")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 34.29 180.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11510,7 +11510,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -11607,7 +11607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e0ad022-05a6-494f-a5ef-bddcca77d060")
-		(property "Reference" "R13"
+		(property "Reference" "R10"
 			(at 223.52 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11671,7 +11671,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R13")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11689,7 +11689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fb08cd4-c907-421c-901f-9ac1eaca13b6")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 372.11 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11751,7 +11751,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11769,7 +11769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86dc3e57-b80b-4b71-a974-1bd30597d0b1")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG02"
 			(at 330.835 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11830,7 +11830,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#FLG05")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -11848,7 +11848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f874418-9795-46f5-8889-b57bccfe2f15")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR013"
 			(at 367.03 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11908,7 +11908,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR03")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11925,7 +11925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fe4d552-3e4a-440a-b5c9-4a19bfdb29ed")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 202.184 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11989,7 +11989,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12111,7 +12111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99f3a981-2f9f-433e-85d0-2ba0bd8e1899")
-		(property "Reference" "C8"
+		(property "Reference" "C3"
 			(at 99.568 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12173,7 +12173,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "C8")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12191,7 +12191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b5c8e3d-d0a2-4054-99ae-3f5445885e44")
-		(property "Reference" "R12"
+		(property "Reference" "R9"
 			(at 214.63 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12255,7 +12255,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R12")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12272,7 +12272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2a99b5e-fa5d-43c5-ae0b-d2f9145a03d2")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 235.458 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12354,7 +12354,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -12371,7 +12371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4207dda-4ebb-44f2-a809-469bc1014847")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 62.738 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12433,7 +12433,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12451,7 +12451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a76fd073-8dfb-485b-ab49-1d895fbefdb1")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR04"
 			(at 91.44 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12512,7 +12512,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR014")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12530,7 +12530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8fa66e2-9e29-4c0b-8258-eb6abc12c0d9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR015"
 			(at 224.79 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -12590,7 +12590,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR019")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12608,7 +12608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b24b3617-34c4-4c19-b7dd-e9b0cec19dc4")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 177.8 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -12668,7 +12668,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -12686,7 +12686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b55b6495-7a94-48f7-aee6-dd036a0dc5cb")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 354.33 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -12746,7 +12746,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12764,7 +12764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2394fc1-e161-4a0c-9454-e812441d2690")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG04"
 			(at 334.645 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -12825,7 +12825,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#FLG03")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -12843,7 +12843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc9cb2f5-36f9-4cf6-a963-c16c2c8bc45a")
-		(property "Reference" "RST"
+		(property "Reference" "RST1"
 			(at 39.37 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12905,7 +12905,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "RST")
+					(reference "RST1")
 					(unit 1)
 				)
 			)
@@ -12922,7 +12922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce587f3f-7d0c-4a34-b406-959124da740e")
-		(property "Reference" "C1"
+		(property "Reference" "C13"
 			(at 16.256 190.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12986,7 +12986,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "C1")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -13003,7 +13003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d25eeba6-7ab5-4d88-a88b-0a3fe08392a4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR012"
 			(at 34.29 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -13063,7 +13063,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR07")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13081,7 +13081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3da9883-75c9-43a7-9a6c-f454724dc4da")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 372.11 193.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13143,7 +13143,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -13160,7 +13160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6bb6299-83e4-4d4a-bc8e-c42432eb4c4a")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 338.836 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13224,7 +13224,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -13241,7 +13241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db77a9fe-8059-445b-99b5-1f45c931b9ff")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 199.136 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13305,7 +13305,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13323,7 +13323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df384117-ab1e-47a1-82a7-078fc5b8761e")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 353.06 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13394,7 +13394,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -13412,7 +13412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e07e3c13-35a4-42e5-97c5-19d2bf39bce9")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR010"
 			(at 128.27 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -13472,7 +13472,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR016")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13490,7 +13490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1f41758-bc4f-4392-adb4-e939ef4e855d")
-		(property "Reference" "MODE"
+		(property "Reference" "MODE1"
 			(at 114.3 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13552,7 +13552,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "MODE")
+					(reference "MODE1")
 					(unit 1)
 				)
 			)
@@ -13569,7 +13569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7f3ce71-eb0d-4f57-aafe-a72b6f4472be")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 374.904 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13631,7 +13631,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13649,7 +13649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8614c45-8e99-4cd3-bb2d-7b256a8dd35c")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG03"
 			(at 175.895 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13710,7 +13710,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#FLG01")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -13727,7 +13727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e98c4df3-a0e8-4591-a857-1328655b9211")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR018"
 			(at 81.28 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -13787,7 +13787,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "#PWR010")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13805,7 +13805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebb0ce5f-6ab4-4468-88c5-54c45ba5398c")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 350.52 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14097,7 +14097,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14115,7 +14115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7a62b78-16da-41cf-8a3b-f9dbe3e760f1")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 205.74 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14179,7 +14179,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -14196,7 +14196,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcf50008-0b44-4ce9-9d42-176d2545623a")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 83.058 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14258,7 +14258,7 @@
 		(instances
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "C6")
+					(reference "C1")
 					(unit 1)
 				)
 			)
