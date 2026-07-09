@@ -164,3 +164,30 @@ To prevent the attack script from triggering and to mount the internal storage d
 2. While holding the button down, **plug the USB cable** into your computer.
 3. Once plugged in, you can safely release the button.
 4. **Result:** The microcontroller detects the ground connection on pin `GP0`, aborts automated payload execution, and safely exposes the `CIRCUITPY` drive and Serial REPL console on your screen in safe development mode.
+
+## 🛠️ Hardware Compatibility & DIY Protoboard Build
+
+While this project features a custom-designed, dedicated PCB with integrated dual-head USB connectors and ESD protection, the core software suite is **100% compatible with standard, off-the-shelf Raspberry Pi Pico** boards (or any generic RP2040 development board running CircuitPython).
+
+If you are prototyping on a breadboard or building a custom DIY injection tool using an original Raspberry Pi Pico, you can deploy this firmware without modifying a single line of code. You simply need to manually wire the external modules according to the hardware mapping defined in `pins.py`:
+
+### 📌 DIY Wiring Checklist for Standard Pico:
+* **MicroSD Card Module:** Wire a 3.3V SPI MicroSD breakout board directly to the RP2040's **SPI0 bus** (`MISO` -> `GP16`, `CS` -> `GP17`, `SCK` -> `GP18`, and `MOSI` -> `GP19`).
+* **4-Bit Binary DIP Switch:** Connect four mechanical switches (or simple jumper wires) between ground (`GND`) and pins **`GP2`**, **`GP3`**, **`GP4`**, and **`GP5`**. When closed (grounded), the internal pull-up resistor drops to `0V`, which the software decodes as an active binary `1`.
+* **Development Mode Safety Jumper (`GP0`):** You **must** wire a tactile button or jumper wire between **`GP0`** and **`GND`**. This is critical: without this physical override, an off-the-shelf Pico will permanently boot in Stealth Attack Mode, hiding the USB drive and locking you out of the REPL console.
+
+---
+
+## 📂 MicroSD Payload Structure & Binary Mapping
+
+The execution engine searches the root directory of the FAT32-formatted MicroSD card for standard DuckyScript (`.dd`) payload files. To utilize the hardware DIP switch, name your scripts following this exact binary convention:
+
+| DIP Switch State (`SW4` -> `SW1`) | Binary Value | Target Payload Path | Description / Engagement Use Case |
+| :---: | :---: | :--- | :--- |
+| `OFF` · `OFF` · `OFF` · `OFF` | `0000` (0) | `/sd/payload.dd` | Default fallback / Standard assessment payload |
+| `OFF` · `OFF` · `OFF` · `ON`  | `0001` (1) | `/sd/payload1.dd` | Quick reconnaissance / System info enumeration |
+| `OFF` · `OFF` · `ON`  · `OFF` | `0010` (2) | `/sd/payload2.dd` | Remote access staging / Reverse shell |
+| `...` · `...` · `...` · `...` | `1 to 14`  | `/sd/payload3.dd` to `14.dd` | Custom specialized audit scripts |
+| `ON`  · `ON`  · `ON`  · `ON`  | `1111` (15)| `/sd/payload15.dd`| Emergency cleanup / Anti-forensic routine |
+
+> 💡 **Tactical Fallback Note:** If you dial a specific binary combination on the DIP switch (e.g., index `5`) but forget to load `/sd/payload5.dd` onto the MicroSD card, the asynchronous engine will not crash. It automatically downgrades to Tier-2 fallback and executes `/sd/payload.dd`, guaranteeing that your field engagement never fails silently.
