@@ -1,8 +1,18 @@
+kkk# =======================================================
+# .gitignore para proyecto KiCad (repo público)
+# Objetivo: solo versionar el código fuente del diseño
+# (esquemático, PCB, librerías, docs, licencia)
+# =======================================================
+
 # -----------------------------------
 # Configuración local de KiCad
 # -----------------------------------
 *.kicad_prl
 fp-info-cache
+*.lck
+*-backups/
+_autosave-*
+
 # -----------------------------------
 # Archivos de autoguardado y backups
 # -----------------------------------
@@ -11,12 +21,11 @@ fp-info-cache
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-_autosave-*
+*~
 
 # -----------------------------------
-# Archivos de bloqueo de sesión
+# Archivos de bloqueo de sesión / entorno
 # -----------------------------------
-*.lck
 *.env
 
 # -----------------------------------
@@ -27,24 +36,42 @@ _autosave-*
 *.ses
 
 # -----------------------------------
-# Archivos de fabricación y exportaciones
-# (Opcional, si prefieres no subir Gerbers)
+# Archivos y carpetas de fabricación / exportaciones
+# (Gerbers, CPL, BOM, ZIPs generados por plugins)
 # -----------------------------------
 /gerber/
 /gerbers/
 /fabrication/
 /plots/
+/production/
+/production_files/
+/jlcpcb/
+/fab/
+/output/
+/dist/
+**/gerber/
+**/gerbers/
 *.gbr
 *.drl
 *.pos
 *.rpt
 *-job.gbrjob
 *-drl.rpt
+*.zip
+fabrication-toolkit-options.json
+
+# -----------------------------------
+# Archivos 3D pesados generados/cacheados (no fuente)
+# -----------------------------------
+*.3dshapes-cache/
+*_cache.3dshapes
 
 # -----------------------------------
 # Archivos de sistema y editores
 # -----------------------------------
 .history/
 .vscode/
+.idea/
 .DS_Store
 Thumbs.db
+desktop.ini
