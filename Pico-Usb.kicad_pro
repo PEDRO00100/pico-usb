@@ -759,7 +759,7 @@
         "uuid": "e96aad04-5f72-44f4-a95f-714a14090504"
       }
     ],
-    "used_designators": "RST1,R1-14,U1-6,A1,C1-13,#PWR1-20,Y1-2,J1-4,MODE1,P1-3,CFG1,SW1-4,BOOTSEL1,#FLG1-5",
+    "used_designators": "RST1,R1-14,U1-6,A1,C1-13,#PWR1-20,Y1-2,USB1,J1-4,MODE1,P1-3,CFG1,SW1-4,BOOTSEL1,#FLG1-5",
     "variants": []
   },
   "sheets": [

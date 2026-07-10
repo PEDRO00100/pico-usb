@@ -1,0 +1,283 @@
+(footprint "USB-AM-180-WT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD USB, DVI, HDMI Connector Adapters RoHS")
+	(tags "USB")
+	(property "Reference" "USB_AM_180-WT"
+		(at 0 -3.2287 0)
+		(layer "F.SilkS")
+		(uuid "67635c3c-55d5-4186-b709-f747687695bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "USB_AM_180-WT"
+		(at 0 19.7119 0)
+		(layer "F.Fab")
+		(uuid "b08f2622-1ef6-413d-9fef-2f447a405e0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C54110164.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.stp&lcsc_vid=R1RdVVxfRFRaAVECRFdYBF1VQFBXA11TFgJXVAAAFVkxVlNeRFdXUFxWRFBYVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHkteQ1NADxALGw%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f7ef5ff-0c66-40f4-b85c-3b504436a062")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "SMD USB, DVI, HDMI Connector Adapters RoHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c401271e-9fc3-436c-8594-45992e4173f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.0001 18.7499)
+		(end -6.0001 2.7298)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11767286-5d47-4953-9ce7-9b0373bd0647")
+	)
+	(fp_line
+		(start -5.0407 -0.0001)
+		(end -4.2312 -0.0001)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d6c445a5-9d05-41e5-9c03-92d076665111")
+	)
+	(fp_line
+		(start -2.7689 -0.0001)
+		(end -1.7313 -0.0001)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc47b3bb-ea30-4af3-b02d-2e12c9546cc9")
+	)
+	(fp_line
+		(start -0.269 -0.0001)
+		(end 0.2687 -0.0001)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6a7dc888-d1bd-450f-bfe5-2c6c28594128")
+	)
+	(fp_line
+		(start 1.731 -0.0001)
+		(end 2.7688 -0.0001)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c6283326-3f33-4e76-bff5-c3721438a955")
+	)
+	(fp_line
+		(start 4.2311 -0.0001)
+		(end 5.0089 -0.0001)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e86124c4-6d30-4e83-a482-4393a53501dd")
+	)
+	(fp_line
+		(start 5.9998 18.7499)
+		(end -6.0001 18.7499)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c659ebbd-98b4-45a0-9e56-814af1f84952")
+	)
+	(fp_line
+		(start 5.9998 18.7499)
+		(end 5.9998 2.7298)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b121ea6a-9f31-46bf-8c11-b850b0007a1e")
+	)
+	(fp_rect
+		(start -6.9001 -2.25)
+		(end 6.9001 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dd219620-f197-4650-b2bd-395221275779")
+	)
+	(fp_line
+		(start -8.8 2.869999)
+		(end 8.46 2.869999)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7feb1b57-e2a1-439f-95b4-2de772235e01")
+	)
+	(fp_text user "EDGE_CUT"
+		(at 8.46 2.869999 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6e7373b4-10e9-40c0-be4f-ca893c92596b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.2501 1.1999)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "92867745-078c-43d5-b017-c572cffdbd34")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.2498 1.1999)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "bbcf16de-f6e9-46c0-9505-8dc8eeb39377")
+	)
+	(pad "1" smd rect
+		(at 3.5 -1)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -99.9998)
+		(thermal_bridge_angle 0)
+		(uuid "7bdd8646-a785-40c7-8da3-00488915a5c1")
+	)
+	(pad "2" smd rect
+		(at 0.9998 -1)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -99.9998)
+		(thermal_bridge_angle 0)
+		(uuid "0ed4cab7-8494-4f32-978d-5c4ca70110cd")
+	)
+	(pad "3" smd rect
+		(at -1.0002 -1)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -99.9998)
+		(thermal_bridge_angle 0)
+		(uuid "355ce36f-df37-4fc6-9afd-f72f847b56e2")
+	)
+	(pad "4" smd rect
+		(at -3.5 -1)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -99.9998)
+		(thermal_bridge_angle 0)
+		(uuid "ade1b2c9-80bc-49fa-8412-e70e786bc319")
+	)
+	(pad "5" thru_hole oval
+		(at -5.9501 1)
+		(size 1.4 3)
+		(drill oval 0.9 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "15b40fec-9f99-4772-8657-d5416089de17")
+	)
+	(pad "6" thru_hole oval
+		(at 5.9501 1)
+		(size 1.4 3)
+		(drill oval 0.9 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "75936c88-deb8-4002-b370-08a25d81a689")
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "75b0a05d-7a61-4a1b-a954-4baed9590b7d")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(arc
+					(start 4.7208 -1.905)
+					(mid 5.207 -2.3912)
+					(end 5.6932 -1.905)
+				)
+				(arc
+					(start 5.6932 -1.905)
+					(mid 5.207 -1.4188)
+					(end 4.7208 -1.905)
+				)
+			)
+		)
+		(filled_polygon
+			(layer "F.SilkS")
+			(island yes)
+			(pts
+				(arc
+					(start 4.7208 -1.905)
+					(mid 5.207 -2.3912)
+					(end 5.6932 -1.905)
+				)
+				(arc
+					(start 5.6932 -1.905)
+					(mid 5.207 -1.4188)
+					(end 4.7208 -1.905)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

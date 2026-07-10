@@ -2175,346 +2175,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_A"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -5.08 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_A"
-				(at -5.08 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB Type A connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector USB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "USB*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USB_A_0_1"
-				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 2.159)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.524 4.826)
-					(end -4.318 5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.27 4.572)
-					(end -4.572 5.842)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.635 3.429)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.127 -7.62)
-					(end 0.127 -6.858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 1.27)
-					(end -0.508 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -0.127)
-					(end 4.318 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_A_1_1"
-				(polyline
-					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5250,6 +4910,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "USB_AM_180-WT:USB_AM_180-WT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "USB"
+				(at 0.254 11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_AM_180-WT"
+				(at 0 9.144 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Custom_Connectors:USB-AM-180-WT"
+				(at 0.508 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" ""
+				(at 0.508 9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 16.002 10.668 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C54110164"
+				(at 0.254 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 -9.652 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "USB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_AM_180-WT_0_0"
+				(rectangle
+					(start -8.89 6.35)
+					(end 8.89 -6.35)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -7.62 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_AM_180-WT_1_0"
+				(pin power_in line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDREF"
 			(power global)
 			(pin_numbers
@@ -5572,10 +5482,16 @@
 		(uuid "259c2d09-f306-4fac-b003-5692fc54c4e2")
 	)
 	(junction
+		(at 316.23 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "356d3883-e4c1-45fc-aeea-c7ebae52a67b")
+	)
+	(junction
 		(at 367.03 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c488373-bbc9-492a-afcf-544ec895cd4f")
+		(uuid "4b75b5cf-83dd-4543-8087-55a4be05aa49")
 	)
 	(junction
 		(at 368.3 118.11)
@@ -5662,6 +5578,12 @@
 		(uuid "845a3331-34e0-42b7-9d93-bfdf19e7cba8")
 	)
 	(junction
+		(at 316.23 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85d172ce-4d17-45b2-bb40-856854261fe3")
+	)
+	(junction
 		(at 198.12 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5726,12 +5648,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d359b60f-2ab4-4734-a3d7-792657d6e1da")
-	)
-	(junction
-		(at 331.47 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddb6d592-ae9a-4ac6-b80a-033c4423ba9e")
 	)
 	(junction
 		(at 25.4 170.18)
@@ -6129,16 +6045,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 24.13) (xy 364.49 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dfccdda-fc01-4c53-8808-b5d6c489c62a")
-	)
-	(wire
-		(pts
 			(xy 48.26 128.27) (xy 48.26 130.81)
 		)
 		(stroke
@@ -6146,6 +6052,16 @@
 			(type default)
 		)
 		(uuid "1ff1028e-9310-400f-ae7a-7683e2f1decf")
+	)
+	(wire
+		(pts
+			(xy 340.36 16.51) (xy 316.23 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fb9612-c0c0-43e7-ad17-37fd0bd0a936")
 	)
 	(polyline
 		(pts
@@ -6409,6 +6325,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 34.29) (xy 364.49 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ad1f89-3997-4828-8269-d9fac2892032")
+	)
+	(wire
+		(pts
 			(xy 224.79 163.83) (xy 224.79 168.91)
 		)
 		(stroke
@@ -6649,6 +6575,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 26.67) (xy 340.36 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68feff53-49a5-47cc-a61c-588ac128c3ce")
+	)
+	(wire
+		(pts
 			(xy 364.49 24.13) (xy 370.84 24.13)
 		)
 		(stroke
@@ -6676,6 +6612,16 @@
 			(type default)
 		)
 		(uuid "6b44c32e-9981-4617-9b13-238854fa7282")
+	)
+	(wire
+		(pts
+			(xy 364.49 34.29) (xy 364.49 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d08c197-5045-4cee-b34d-06ff12eac1dc")
 	)
 	(wire
 		(pts
@@ -6726,6 +6672,16 @@
 			(type default)
 		)
 		(uuid "7e251b74-2191-4e35-bc3b-a2937441febb")
+	)
+	(wire
+		(pts
+			(xy 340.36 26.67) (xy 340.36 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec736c3-f5a0-4ce8-a1e8-f3adcf56ee7b")
 	)
 	(wire
 		(pts
@@ -6786,6 +6742,16 @@
 			(type default)
 		)
 		(uuid "84ed7229-698f-4e7b-b98c-e50aae28c2a2")
+	)
+	(wire
+		(pts
+			(xy 316.23 34.29) (xy 316.23 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fc3a61-56ef-404f-acb7-5995e07b4b44")
 	)
 	(wire
 		(pts
@@ -7009,16 +6975,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 39.37) (xy 367.03 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a042a2e1-1c0d-45f7-b082-6758e5908440")
-	)
-	(wire
-		(pts
 			(xy 83.82 114.3) (xy 83.82 111.76)
 		)
 		(stroke
@@ -7139,6 +7095,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 16.51) (xy 316.23 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c79dc4-d057-46c9-b4a7-592d3ada089a")
+	)
+	(wire
+		(pts
 			(xy 83.82 111.76) (xy 83.82 106.68)
 		)
 		(stroke
@@ -7156,6 +7122,16 @@
 			(type default)
 		)
 		(uuid "bceb8d5c-0632-4fff-96ba-730fb0ee8b15")
+	)
+	(wire
+		(pts
+			(xy 316.23 39.37) (xy 367.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be06cff0-bb4b-4f64-946a-1948e3a1dd74")
 	)
 	(wire
 		(pts
@@ -7206,16 +7182,6 @@
 			(type default)
 		)
 		(uuid "c829eeac-f755-46ce-9411-fa8a29975a12")
-	)
-	(wire
-		(pts
-			(xy 328.93 39.37) (xy 331.47 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c84d9aff-3086-47a4-b067-9fd629af5d8f")
 	)
 	(wire
 		(pts
@@ -7446,6 +7412,16 @@
 			(type default)
 		)
 		(uuid "e029b767-0c79-4bb2-9d63-35099e42ae2e")
+	)
+	(wire
+		(pts
+			(xy 316.23 26.67) (xy 316.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0cc4af8-1381-4cd8-8327-872122feeabd")
 	)
 	(wire
 		(pts
@@ -8286,95 +8262,6 @@
 			(justify left bottom)
 		)
 		(uuid "ff98c8d8-f367-4a27-b51f-95b2b36804d3")
-	)
-	(symbol
-		(lib_id "Connector:USB_A")
-		(at 331.47 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01025bdb-4376-4e72-9cc8-95bb4d3fed0f")
-		(property "Reference" "J1"
-			(at 331.47 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_A"
-			(at 331.47 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal"
-			(at 335.28 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 335.28 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB Type A connector"
-			(at 331.47 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "06f92c56-46a5-404c-a613-6db102ed0cc8")
-		)
-		(pin "3"
-			(uuid "25eaf1e4-8393-4f97-aae8-26cd6973f56b")
-		)
-		(pin "1"
-			(uuid "81158a27-492f-473c-9001-2bc68520036f")
-		)
-		(pin "2"
-			(uuid "1c5da6b9-6860-4a10-a85f-93f66c4ce411")
-		)
-		(pin "SH"
-			(uuid "73a9f3d7-94d0-4a5f-9285-127a54ddfcee")
-		)
-		(instances
-			(project "Pico-Usb"
-				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -12906,6 +12793,142 @@
 			(project "Pico-Usb"
 				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
 					(reference "RST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USB_AM_180-WT:USB_AM_180-WT")
+		(at 327.66 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccdfa6fa-f195-4fba-a508-50a2f9ce544d")
+		(property "Reference" "USB1"
+			(at 327.66 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_AM_180-WT"
+			(at 327.66 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Connectors:USB-AM-180-WT"
+			(at 327.152 37.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 327.152 39.878 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 311.658 41.148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C54110164"
+			(at 327.406 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 327.66 20.828 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6c7c3d8-1772-4d6c-8ddb-641e249387a3")
+		)
+		(pin "5"
+			(uuid "6d7a5808-61f5-4175-84cd-43b55c2e6039")
+		)
+		(pin "6"
+			(uuid "38b11aca-2b03-4895-89bf-27f463c31db3")
+		)
+		(pin "1"
+			(uuid "1164b4ef-8369-43f1-86a0-875f99f8b91a")
+		)
+		(pin "4"
+			(uuid "88d28539-baf2-47e3-a6a9-b154a0ae8781")
+		)
+		(pin "3"
+			(uuid "880f6fcc-4e10-47d1-905c-8d0cee82c322")
+		)
+		(instances
+			(project "Pico-Usb"
+				(path "/e96aad04-5f72-44f4-a95f-714a14090504"
+					(reference "USB1")
 					(unit 1)
 				)
 			)
