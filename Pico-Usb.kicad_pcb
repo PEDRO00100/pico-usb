@@ -11239,19 +11239,6 @@
 		(layer "Edge.Cuts")
 		(uuid "f1dc0105-b465-4205-a37d-e462ed213b78")
 	)
-	(gr_text "hola papusss"
-		(at 127 94.5 90)
-		(layer "F.Cu")
-		(uuid "e7e6ef08-edae-49d5-9cce-9bb33fe6a3b4")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(segment
 		(start 141.663067 118.022327)
 		(end 140.872327 118.022327)
