@@ -196,7 +196,7 @@ The execution engine searches the root directory of the FAT32-formatted MicroSD 
 
 ## 📸 Board Designs & Renders
 
-Renders 3D y ruteo de capas del PCB de **Pico-USB**.
+3D renders and PCB layer routing for the **Pico-USB** board.
 
 <table align="center">
   <tr>
