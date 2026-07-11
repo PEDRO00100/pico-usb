@@ -190,21 +190,20 @@ The execution engine searches the root directory of the FAT32-formatted MicroSD 
 | `...` · `...` · `...` · `...` | `1 to 14`  | `/sd/payload3.dd` to `14.dd` | Custom specialized audit scripts |
 | `ON`  · `ON`  · `ON`  · `ON`  | `1111` (15)| `/sd/payload15.dd`| Emergency cleanup / Anti-forensic routine |
 
-> 💡 **Tactical Fallback Note:** If you dial a specific binary combination on the DIP switch (e.g., index `5`) but forget to load `/sd/payload5.dd` onto the MicroSD card, the asynchronous engine will not crash. It automatically downgrades to Tier-2 fallback and executes `/sd/payload.dd`, guaranteeing that your field engagement never 
+> 💡 **Tactical Fallback Note:** If you dial a specific binary combination on the DIP switch (e.g., index `5`) but forget to load `/sd/payload5.dd` onto the MicroSD card, the asynchronous engine will not crash. It automatically downgrades to Tier-2 fallback and executes `/sd/payload.dd`, guaranteeing that your field engagement never fails silently.
+
+---
 
 ## 📸 Board Designs & Renders
+
 Below are the 3D renders and the 2D PCB layout routing for the Pico-USB hardware.
-3D Hardware Renders
-Top / Front View
-Bottom / Back View
-<img src="assets/3dFront.png" alt="3D Front View" width="400"/>
-<img src="assets/3dBack.png" alt="3D Back View" width="400"/>
 
-2D PCB Layout (Routing)
-Top Layer (F.Cu)
-Bottom Layer (B.Cu)
-<img src="assets/2dFront.png" alt="2D Front Routing" width="400"/>
-<img src="assets/2dBack.png" alt="2D Back Routing" width="400"/>
+### 3D Hardware Renders
+| Top / Front View | Bottom / Back View |
+| :---: | :---: |
+| <img src="assets/3dFront.png" alt="3D Front View" width="400"/> | <img src="assets/3dBack.png" alt="3D Back View" width="400"/> |
 
-
-
+### 2D PCB Layout (Routing)
+| Top Layer (F.Cu) | Bottom Layer (B.Cu) |
+| :---: | :---: |
+| <img src="assets/2dFront.png" alt="2D Front Routing" width="400"/> | <img src="assets/2dBack.png" alt="2D Back Routing" width="400"/> |
