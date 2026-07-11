@@ -1,3 +1,14 @@
+> [!WARNING]
+> ### ⚠️ LEGAL DISCLAIMER & TERMS OF USE
+> 
+> This hardware device, firmware, and its accompanying software suite are developed and provided **strictly for educational purposes, authorized laboratory environments, and professional security auditing.**
+> 
+> By building, accessing, or utilizing this tool, you acknowledge and agree to the following:
+> 
+> * **Authorized Use Only:** You must obtain explicit, written consent from the infrastructure or system owner before engaging in any security testing, payload injection, or assessment.
+> * **No Liability:** The creators, contributors, and maintainers of this project assume **absolute no liability** and are not responsible for any direct or indirect damage, data loss, misuse, or illegal activities resulting from the deployment of this device.
+> * **End-User Responsibility:** It is solely your responsibility to ensure compliance with all applicable local, state, and federal laws. Any use of this tool for malicious intent, unauthorized access, or covert data exfiltration is strictly prohibited.
+
 ## ⚙️ System Architecture & Operation
 
 This project is a hardware-based security auditing and penetration testing tool (HID Injection Engine) built around the **RP2040** microcontroller. Unlike traditional USB injection scripts that require hardcoding and recompiling firmware for every assessment, this device operates as an autonomous, dynamic execution engine. It reads attack scripts directly from an external MicroSD card and allows instant, on-the-fly selection of up to 16 different payloads via hardware switching.
