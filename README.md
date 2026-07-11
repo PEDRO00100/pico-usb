@@ -196,14 +196,27 @@ The execution engine searches the root directory of the FAT32-formatted MicroSD 
 
 ## 📸 Board Designs & Renders
 
-Below are the 3D renders and the 2D PCB layout routing for the Pico-USB hardware.
+Renders 3D y ruteo de capas del PCB de **Pico-USB**.
 
-### 3D Hardware Renders
-| Top / Front View | Bottom / Back View |
-| :---: | :---: |
-| <img src="assets/3dFront.png" alt="3D Front View" width="400"/> | <img src="assets/3dBack.png" alt="3D Back View" width="400"/> |
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/3dFront.png" alt="3D Front View" height="320"/><br/>
+      <sub><b>3D Front</b></sub>
+    </td>
+    <td align="center">
+      <img src="assets/3dBack.png" alt="3D Back View" height="320"/><br/>
+      <sub><b>3D Back</b></sub>
+    </td>
+    <td align="center">
+      <img src="assets/2dFront.png" alt="2D Front Routing (F.Cu)" height="320"/><br/>
+      <sub><b>2D F.Cu</b></sub>
+    </td>
+    <td align="center">
+      <img src="assets/2dBack.png" alt="2D Back Routing (B.Cu)" height="320"/><br/>
+      <sub><b>2D B.Cu</b></sub>
+    </td>
+  </tr>
+</table>
 
-### 2D PCB Layout (Routing)
-| Top Layer (F.Cu) | Bottom Layer (B.Cu) |
-| :---: | :---: |
-| <img src="assets/2dFront.png" alt="2D Front Routing" width="400"/> | <img src="assets/2dBack.png" alt="2D Back Routing" width="400"/> |
+---
